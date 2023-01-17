@@ -1,0 +1,103 @@
+
+nav a {
+ padding: 0.5rem ;
+} 
+body {
+font-family: 'Nunito', sans-serif;
+}
+ul{
+    padding: 0px;
+}
+
+li {
+    list-style-type:none;
+    border: ipx solid;
+    border-radius: 5px;
+    background: antiquewhite;
+    padding: 10px;
+    margin: 5px;
+}
+
+li:hover{
+    background: #f74747;
+}
+
+form{
+    background: white;
+    border: 1px solid #dddddd;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+form div {
+    margin: 10px;
+}
+
+form input{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: 'Nunito';
+
+}
+form label{
+    display: inherit;
+    font-size: .9rem;
+    padding-bottom: 3px;
+    color: #9d9d9d;
+}
+
+form button {
+    border: 1px solid #ddd;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    border-radius: 5px;
+
+}
+.form-error {
+margin: 0;
+color:red;
+font-size: .8rem;
+}
+
+.delete_form{
+    background: none;
+    border: 0px;
+    padding:0px;
+    border-radius: 0px;
+    box-shadow:none;
+    margin: 0px;
+}
+.deletee-btn{
+    background-color: #f44336; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    }
+    .edit-btn {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 5px;
+    
+    }
+.blabla{
+    border: 2px solid black;
+  padding: 10px;
+  border-radius: 50px 20px;
+
+
+}
+    
